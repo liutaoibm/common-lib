@@ -163,6 +163,18 @@ const logger = createLogger({
 
 See the [examples](./examples) directory for more usage examples.
 
+### Example Log Output
+
+```plaintext
+[2025-05-18T10:18:00.000Z] [INFO] Hello world!
+[2025-05-18T10:18:01.000Z] [WARN] This is a warning message
+[2025-05-18T10:18:02.000Z] [ERROR] This is an error message {"code":"ERR_EXAMPLE"}
+[2025-05-18T10:18:03.000Z] [DEBUG] Debug message with context {"userId":"123"}
+[2025-05-18T10:18:04.000Z] [INFO] First log
+[2025-05-18T10:18:05.000Z] [INFO] Second log
+[2025-05-18T10:18:06.000Z] [INFO] Third log
+```
+
 ## License
 
 ISC
